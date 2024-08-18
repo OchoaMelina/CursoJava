@@ -1,0 +1,21 @@
+public class Vectores{
+  public static void main(String args[]){
+   
+  int numeros[] = new int [5];
+  
+  numeros[0] = 11;
+  numeros[1] = 14;
+  numeros[2] = 18
+  numeros[3] = 04;
+  numeros[4] = 24;
+
+  System.out.println(numero[0]);
+  System.out.println(numero[1]);
+  System.out.println(numero[2]);
+  System.out.println(numero[3]);
+  System.out.println(numero[4]);
+
+  
+ }
+
+}
