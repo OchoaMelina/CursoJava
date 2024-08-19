@@ -1,0 +1,24 @@
+librerias
+import java.util.Scanner; (para introducir datos)
+import javax.swing.*;(permite importar los elementos para armar interfaces)
+import java.awt.event.*;(permite agregar o importar la funcionalidad o los eventos que deseamos en nuestra interface)
+
+
+Metodos, para indicar que afecte a un elemento se une con un punto.
+Metodo length indica cuantos caracteres posee una cadena
+metodo substring permite obtener una parte en especifico de la cadena--.substring(desde,hasta);
+Método setLayout permite a través de coordenadas indicarle donde van los elementos en la interface, para que el medoro no los ubique donde quiera hay que iniciarlo en null setLayout(null)
+Método setBounds para indicar donde se posiciona el elemento con coordenadas ejemplo elemento.setBounds(x,y,ancho,alto);
+Método add es para agregar
+Método setVisible permite según su estado (true/false) que tu interface se vea o no
+Método setLocationRelativeTo permite ubicar el elemento en la pantalla
+Método setResizable Indica al programa si el usuario puede o no a través de la palabra true o false. ejemplo.setResizable(true/false);
+Método getSource() Recupera o trae el lugar donde se origino el evento
+
+Constructores te permiten construir cosas en un lugar de donde se pueda invocar, debe llamarse igual que la clase
+
+JFrame: Permite crear interfaces graficas
+JLabel: Etiqueta que permite crear etiquetas donde nosotros podemos crear o mostrar elementos sin el system.out siempre deben ser de tipo privado. Se inicializa como las cadenas de string ejemplo label = new JLabel ("");
+Modificadores de accesos: Hay 4 en total 
+private: Se encargan de decir si el espacio es privado
+public: Se encargan de decir si el espacio es publico
