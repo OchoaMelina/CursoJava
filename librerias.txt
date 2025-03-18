@@ -2,7 +2,7 @@ librerias
 import java.util.Scanner; (para introducir datos)
 import javax.swing.*;(permite importar los elementos para armar interfaces)
 import java.awt.event.*;(permite agregar o importar la funcionalidad o los eventos que deseamos en nuestra interface)
-
+import java.awt.*;(permite diseñar la interface)
 
 Metodos, para indicar que afecte a un elemento se une con un punto.
 Metodo length indica cuantos caracteres posee una cadena
@@ -14,11 +14,36 @@ Método setVisible permite según su estado (true/false) que tu interface se vea
 Método setLocationRelativeTo permite ubicar el elemento en la pantalla
 Método setResizable Indica al programa si el usuario puede o no a través de la palabra true o false. ejemplo.setResizable(true/false);
 Método getSource() Recupera o trae el lugar donde se origino el evento
-
+Método setText para colocar texto en una etiqueta.
+Método getText recuperael texto de cualquier espacio de memoria.
+Método addItem: Permite agregar texto a la combo box
+Método addItemListener: Para agregarle un evento a la combo box
+Método getSelectedItem para recuperar lo seleccionado en el combo box
+Método toString():Permite parsear todo lo que esta a la izquierda a string
+Método setBackground: Permite darle diseño a los elementos como color.
 Constructores te permiten construir cosas en un lugar de donde se pueda invocar, debe llamarse igual que la clase
+Método setSize: permite modificar el tamaño de la interface 
+Método getContentPane(): Para crear un contenedor donde poner color.
+Método add():Para agregar un menú dentro de otro.
 
 JFrame: Permite crear interfaces graficas
 JLabel: Etiqueta que permite crear etiquetas donde nosotros podemos crear o mostrar elementos sin el system.out siempre deben ser de tipo privado. Se inicializa como las cadenas de string ejemplo label = new JLabel ("");
+JButton: Permite crear botones.
+JTextField: Permite crear una caja para escribir texto
+JTextArea: Permite crear un área para poder escribir texto
+JScrollPane: Permite relacionar JTextArea con JTextField, 
+JComboBox: Para crear cajas de texto con varios elementos.
+Color: Para dar color a los elementos es de la librería awt
+JMenuBarra: Para crear barras de menus
+JMenu para crear pestañas o opciones en un menú
+JMenuItem: Para crear eventos al hacer clic en la opción de un menú.
+JCheckBox: Para crear cajas de selección de opciones.
+
+
+Parsear: Integer.parseInt:para parsear de texto a numero;
+ActionListener: es para poder crear eventos en los botones.
+ItemListener: es para poder crear una lista en un combo box
+
 Modificadores de accesos: Hay 4 en total 
 private: Se encargan de decir si el espacio es privado
 public: Se encargan de decir si el espacio es publico
